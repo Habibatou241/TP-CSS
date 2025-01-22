@@ -1,0 +1,29 @@
+/* Appliquer une couleur de fond à la balise <body> */
+body {
+    background-color: #f0f8ff; /* Une couleur bleu très clair pour l'arrière-plan */
+}
+
+/* Sélecteur d'ID pour mettre en gras le texte du deuxième paragraphe */
+#bold-text {
+    font-weight: bold;
+}
+
+/* Sélecteur de classe pour mettre le texte du premier paragraphe en italique */
+.italic-text {
+    font-style: italic;
+}
+
+/* Sélecteur de classe pour changer la couleur du texte des éléments de classe "item-highlight" */
+.item-highlight {
+    color: blue;
+}
+
+/* Sélecteur d'attribut pour cibler les éléments de classe commençant par "a" */
+[class^="a"] {
+    background-color: yellow;
+}
+
+/* Sélecteur d'attribut pour cibler les éléments de classe finissant par "date" */
+[class$="date"] {
+    background-color: green;
+}

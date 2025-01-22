@@ -1,0 +1,32 @@
+/* Appliquer une couleur de fond à la section avec la classe "container" */
+.container {
+    background-color: #e0f7fa;  /* Choisir une couleur de fond (bleu clair) */
+    padding: 20px;               /* Ajouter un peu de marge intérieure pour espacer le contenu */
+}
+
+/* Sélecteur de classe pour la div avec la classe "box" */
+.box {
+    border: 1px solid black;  /* Bordure solide de 1px de couleur noire */
+    background-color: white;  /* Fond blanc */
+    padding: 20px;             /* Un peu d'espace autour du texte */
+    margin-bottom: 10px;       /* Espacement entre les boîtes */
+}
+
+/* Sélecteur de classe pour la div avec la classe "box-highlight" */
+.box-highlight {
+    color: blue;  /* Changer la couleur du texte en bleu */
+}
+/* Sélecteur de classe pour les éléments <li> avec la classe "list-item" */
+.list-item {
+    color: green;  /* Changer la couleur du texte des éléments de la classe "list-item" en vert */
+}
+
+/* Sélecteur de type pour les éléments de type <div> */
+div {
+    margin: 10px;  /* Ajouter une marge de 10px autour des éléments <div> */
+}
+
+/* Sélecteur de type pour les éléments <p> */
+p {
+    color: red;  /* Changer la couleur du texte des paragraphes en rouge */
+}

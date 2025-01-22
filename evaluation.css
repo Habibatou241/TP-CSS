@@ -1,0 +1,25 @@
+/* Appliquer une couleur de fond au corps du document */
+body {
+    background-color: #f0f8ff; /* Vous pouvez changer cette couleur */
+}
+/* Style pour la classe "highlight" appliquée au paragraphe */
+.highlight {
+    color: blue;      /* Changer la couleur du texte en bleu */
+    font-weight: bold; /* Mettre le texte en gras */
+}
+
+/* Sélecteur de type pour les éléments <li> */
+ul li {
+    color: green;  /* Changer la couleur du texte des éléments de liste en vert */
+}
+
+/* Sélecteur de classe pour les éléments de liste ayant la classe "special" */
+.special {
+    border: 2px solid black;  /* Ajouter une bordure solide de 2px */
+    background-color: grey;   /* Ajouter un fond gris */
+}
+
+/* Sélecteur d'ID pour le premier élément de la liste */
+#fruit1 {
+    background-color: yellow; /* Changer la couleur de fond en jaune pour le premier élément */
+}
